@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .jackpot_list {
+    list-style-image: url(/assets/jackpot/double-ticks.svg);
+  }
+  .screw_bg {
+    transform: skewY(9deg);
+  }
+  .green_shodow {
+    @apply absolute z-0 lg:w-[484px]  lg:h-[484px] w-[240px] h-[240px] bg-greenLinearGradient opacity-40 blur-[100px] rounded-full;
+  }
+
+  @media (max-width: 1023.9px) {
+    .screw_bg {
+      transform: skewY(6deg);
+    }
+  }
+}
