@@ -14,6 +14,18 @@
     @apply absolute z-0 lg:w-[484px]  lg:h-[484px] w-[240px] h-[240px] bg-greenLinearGradient opacity-40 blur-[100px] rounded-full;
   }
 
+  /* styles/global.css */
+  ::-webkit-scrollbar {
+    width: 6px; /* width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #7af57a20; /* color of the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #7af57a; /* color of the thumb */
+  }
   @media (max-width: 1023.9px) {
     .screw_bg {
       transform: skewY(6deg);
