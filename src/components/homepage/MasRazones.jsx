@@ -15,7 +15,7 @@ const MasRazones = () => {
           alt="jackpot"
         />
         <div className="xl:max-w-[543px] w-full lg:ml-5 pt-8 xl:pt-0">
-          <h2 className="font-anton font-normal lg:text-5xl text-4xl text-center xl:text-start text-white xl:pb-[60px] pb-8">
+          <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-center xl:text-start text-white xl:pb-[60px] pb-8">
             Más razones para elegirnos
           </h2>
           <div className="xl:max-w-[375px] flex xl:flex-col md:flex-row flex-wrap md:flex-nowrap justify-center items-center  gap-6 w-full">

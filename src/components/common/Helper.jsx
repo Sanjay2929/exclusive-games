@@ -1,3 +1,5 @@
+import { Facebook, Instagram, Linkedin } from "./Icons";
+
 // Navbar links
 export const NavLinks = [
   {
@@ -195,5 +197,20 @@ export const FooterLinks = [
         url: "/",
       },
     ],
+  },
+];
+// Social Links
+export const SocialLinks = [
+  {
+    icon: <Instagram />,
+    url: "/",
+  },
+  {
+    icon: <Facebook />,
+    url: "/",
+  },
+  {
+    icon: <Linkedin />,
+    url: "/",
   },
 ];

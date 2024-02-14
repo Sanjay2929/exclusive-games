@@ -14,7 +14,7 @@ const LanzaLeerMas = () => {
           </h2>
           <CustomButton
             title="Leer más"
-            style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
+            style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-green-button-line"
           />
         </div>
       </div>

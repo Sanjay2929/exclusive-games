@@ -16,16 +16,19 @@ module.exports = {
         darkBlack: "#00141B",
         extraLightGreen: "#7AF57A14",
         borderGreen: "#347C70",
+        gray: "#FEFEFE",
       },
       backgroundImage: {
         "hero-console": "url('/assets/hero/gaming-console-bg.webp')",
-        "lanza-layer": "url('/assets/lanza-tu-propia/lanza_bg.webp')",
+        "lanza-layer": "url('/assets/lanza-tu-propia/lanza-bg.webp')",
         "lanza-leer-mas":
           "url('/assets/lanza-leer-mas/lanza-leer-mas-bg.webp')",
         "luxury-gaming-console": "url('/assets/luxury/luxury-bg.webp')",
         "jackpot-table": "url('/assets/common/jackpot-table-bg.webp')",
         "next-step-arrow-upward-curve":
           "url('/assets/nuestros-steps/arrow-upward-curve.svg')",
+        "green-button-line":
+          "url('/assets/common/button-green-haft-border.svg')",
         greenLinearGradient:
           "linear-gradient(306.99deg, #51C8EF -13.72%, #7AF57A 102.02%)",
         greenTransparentGradient:

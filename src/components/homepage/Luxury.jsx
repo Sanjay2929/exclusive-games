@@ -15,7 +15,7 @@ const Luxury = () => {
             características de la versión Silver y la potencia adicional de la
             tecnología React .
           </p>
-          <h3 className="font-anton font-normal lg:text-5xl text-4xl text-white text-center">
+          <h3 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-white text-center">
             $9000
           </h3>
           <ul className="jackpot_list ps-6 pt-4 pb-10">
@@ -40,14 +40,14 @@ const Luxury = () => {
           <div className="flex justify-center">
             <CustomButton
               title="Comprar ahora"
-              style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
+              style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-green-button-line"
             />
           </div>
           <Image
             className="absolute -left-[30px] bottom-[40px] max-w-[176px] -translate-x-full lg:block hidden"
             width={176}
             height={186}
-            src="/assets/luxury/diamond-A-card.webp"
+            src="/assets/luxury/diamond-a-card.webp"
             alt="diamond card"
           />
           <Image
@@ -61,7 +61,7 @@ const Luxury = () => {
             className="absolute -right-[88px] top-[55px] max-w-[149px] translate-x-full lg:block hidden"
             width={149}
             height={150}
-            src="/assets/luxury/heart-A-card.webp"
+            src="/assets/luxury/heart-a-card.webp"
             alt="card"
           />
           <Image

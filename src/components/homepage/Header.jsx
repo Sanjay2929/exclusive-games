@@ -65,7 +65,12 @@ const Header = () => {
               );
             })}
           </ul>
-          <div className="lg:hidden block">
+          <div
+            onClick={() => {
+              setIsNavShow(false);
+            }}
+            className="lg:hidden block"
+          >
             <CustomButton title="Acceso" style="" />
           </div>
         </div>

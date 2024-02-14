@@ -11,7 +11,7 @@ const CasinoNight = () => {
           className="max-w-[543px] lg:mr-5 pt-5 lg:pt-0"
           data-aos="fade-right"
         >
-          <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-3xl text-darkBlack pb-4">
+          <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-darkBlack pb-4">
             Por qué elegirnos
           </h2>
 
@@ -24,7 +24,7 @@ const CasinoNight = () => {
           </p>
           <CustomButton
             title="Aprende más"
-            style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
+            style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-green-button-line"
           />
         </div>
         <Image

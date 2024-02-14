@@ -17,7 +17,7 @@ const Platinum = () => {
             <p className="opacity-80 sm:text-base text-sm text-white lg:text-start text-center font-medium pb-8 ">
               Diseño totalmente personalizado. Contáctanos para un presupuesto.
             </p>
-            <h3 className="font-anton font-normal lg:text-5xl text-4xl text-white ">
+            <h3 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-white ">
               Consultar precio
             </h3>
             <ul className="jackpot_list ps-6 pt-4 pb-10">

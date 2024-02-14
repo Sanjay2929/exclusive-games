@@ -8,7 +8,7 @@ const NuestrasOfertas = () => {
       id="ofertas"
       className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0"
     >
-      <h2 className="font-anton font-normal lg:text-5xl text-4xl text-center text-white pb-4">
+      <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-center text-white pb-4">
         Nuestras ofertas
       </h2>
       <p className="text-center font-medium sm:text-base text-sm text-white lg:pb-[60px] pb-8">
@@ -40,7 +40,7 @@ const NuestrasOfertas = () => {
             Diseño predeterminado, atractivo y fácil de navegar, tecnología
             HTLM5.
           </p>
-          <h3 className="font-anton font-normal lg:text-5xl text-4xl text-white lg:text-start text-center">
+          <h3 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-white lg:text-start text-center">
             $5000
           </h3>
           <ul className="jackpot_list ps-6 pt-4 pb-10 lg:text-start text-center max-w-[420px] lg:max-w-[500px]">

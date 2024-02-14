@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         <CustomButton
           title="Empezar"
-          style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
+          style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-green-button-line"
         />
       </div>
     </div>

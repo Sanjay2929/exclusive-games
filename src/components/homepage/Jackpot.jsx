@@ -17,7 +17,7 @@ const Jackpot = () => {
           className="max-w-[543px] lg:ml-5 pt-5 lg:pt-0"
           data-aos="fade-left"
         >
-          <h2 className="font-anton font-normal lg:text-5xl text-4xl text-white pb-4 lg:text-start text-center">
+          <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-white pb-4 lg:text-start text-center">
             Potenciando sus elecciones
           </h2>
           <h3 className="text-white pb-6 font-medium sm:text-base text-sm lg:text-start text-center opacity-80">

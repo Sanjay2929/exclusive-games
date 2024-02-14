@@ -5,7 +5,7 @@ const NuestrosSteps = () => {
   return (
     <div className="relative z-10">
       <div className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0 lg:pt-[120px] pt-20 lg:pb-20 pb-12">
-        <h2 className="font-anton font-normal lg:text-5xl text-[36px] text-darkBlack text-center pb-[60px]">
+        <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-darkBlack text-center pb-[60px]">
           Nuestros Atributos de Marca
         </h2>
         <div className="flex md:justify-between justify-center items-start flex-wrap md:gap-0 gap-10 relative">

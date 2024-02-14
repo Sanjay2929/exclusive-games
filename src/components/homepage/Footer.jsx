@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FooterLinks } from "../common/Helper";
-import { Gmail, Telephone } from "../common/Icons";
+import { FooterLinks, SocialLinks } from "../common/Helper";
+import { Gmail, Instagram, Telephone } from "../common/Icons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,6 +22,19 @@ const Footer = () => {
             En Exclusive Games somos un equipo apasionado de personas dedicadas
             al desarrollo de multiplataformas para juegos de azar
           </p>
+          <div className="flex gap-3">
+            {SocialLinks.map((value, index) => {
+              return (
+                <Link
+                  key={index}
+                  href={value.url}
+                  className="w-[32px] h-[32px] flex justify-center items-center bg-gray rounded-full bg-opacity-[16%] hover:bg-lightGreen duration-300"
+                >
+                  {value.icon}
+                </Link>
+              );
+            })}
+          </div>
         </div>
         {FooterLinks.map((value, index) => {
           return (

@@ -16,7 +16,7 @@ const Faq = () => {
   return (
     <div className="relative">
       <div className="container xl:max-w-[1140px] mx-auto px-3 pb-12">
-        <h2 className="font-anton font-normal lg:text-5xl text-4xl text-white text-center leading-[120%] lg:pb-[60px] pb-8">
+        <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-white text-center leading-[120%] lg:pb-[60px] pb-8">
           Preguntas más frecuentes
         </h2>
         <div className="max-w-[970px] mx-auto">

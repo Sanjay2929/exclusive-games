@@ -8,7 +8,7 @@ const EllosEligieron = () => {
       id="tragamonedas"
       className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0 lg:pb-[170px] pb-24 lg:pt-[150px] pt-24"
     >
-      <h2 className="font-anton font-normal lg:text-5xl text-4xl text-white text-center leading-[120%] lg:pb-[60px] pb-8">
+      <h2 className="font-anton font-normal lg:text-5xl sm:text-4xl text-[32px] text-white text-center leading-[120%] lg:pb-[60px] pb-8">
         Ellos eligieron apostar con nosotros
       </h2>
       <div className="flex justify-center flex-wrap gap-6">
