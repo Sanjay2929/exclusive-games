@@ -25,7 +25,7 @@ const Slots = () => {
                 data-aos="fade-up"
                 data-aos-delay={value.delay}
                 key={index}
-                className="md:w-[calc(33.3%_-_16px)] w-[calc(50%_-_12px)] max-[480px]:w-full relative rounded-lg overflow-hidden group"
+                className="md:w-[calc(33.3%_-_16px)] w-[calc(50%_-_12px)] max-[480px]:w-full relative rounded-lg overflow-hidden group border-transparent border hover:border-lightGreen"
               >
                 <Image
                   className="w-full"
