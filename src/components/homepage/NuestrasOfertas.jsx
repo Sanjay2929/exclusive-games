@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 
 const NuestrasOfertas = () => {
   return (
@@ -62,7 +62,7 @@ const NuestrasOfertas = () => {
               Tiempo de creación 2 a 3 semanas
             </li>
           </ul>
-          <CommonButton title="Comprar ahora" />
+          <CustomButton title="Comprar ahora" />
         </div>
       </div>
     </div>

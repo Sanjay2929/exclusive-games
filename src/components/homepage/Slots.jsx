@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { SlotsGames } from "../common/Helper";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 
 const Slots = () => {
   return (
@@ -35,14 +35,14 @@ const Slots = () => {
                   alt="jet-X"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-[72%] opacity-0 group-hover:opacity-100 duration-300">
-                  <CommonButton title={value.title} style="" />
+                  <CustomButton title={value.title} style="" />
                 </div>
               </div>
             );
           })}
         </div>
         <div className="flex justify-center">
-          <CommonButton
+          <CustomButton
             title="Empezar"
             style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
           />

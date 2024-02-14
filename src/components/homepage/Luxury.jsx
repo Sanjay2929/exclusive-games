@@ -1,5 +1,5 @@
 import React from "react";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 import Image from "next/image";
 
 const Luxury = () => {
@@ -38,7 +38,7 @@ const Luxury = () => {
             </li>
           </ul>
           <div className="flex justify-center">
-            <CommonButton
+            <CustomButton
               title="Comprar ahora"
               style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
             />

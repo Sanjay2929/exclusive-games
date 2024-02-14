@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 import { Ellosligieron } from "../common/Helper";
 
 const EllosEligieron = () => {
@@ -28,7 +28,7 @@ const EllosEligieron = () => {
                 alt="jet-X"
               />
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-[72%] opacity-0 group-hover:opacity-100 duration-300">
-                <CommonButton title={value.title} style="" />
+                <CustomButton title={value.title} style="" />
               </div>
             </div>
           );

@@ -1,5 +1,5 @@
 import React from "react";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           nuestra vida consumimos todo tipo de juegos hasta que un día decidimos
           crear los propios.
         </p>
-        <CommonButton
+        <CustomButton
           title="Empezar"
           style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
         />

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 import { CrossMenuIcon, MenuIcon } from "../common/Icons";
 import { NavLinks } from "../common/Helper";
 
@@ -66,11 +66,11 @@ const Header = () => {
             })}
           </ul>
           <div className="lg:hidden block">
-            <CommonButton title="Acceso" style="" />
+            <CustomButton title="Acceso" style="" />
           </div>
         </div>
         <div className="hidden lg:block">
-          <CommonButton title="Acceso" style="" />
+          <CustomButton title="Acceso" style="" />
         </div>
         <div
           className="cursor-pointer relative z-[51] lg:hidden"

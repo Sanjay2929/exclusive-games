@@ -1,5 +1,5 @@
 import React from "react";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 
 const LanzaLeerMas = () => {
   return (
@@ -12,7 +12,7 @@ const LanzaLeerMas = () => {
           <h2 className=" font-anton font-normal md:text-[32px] text-2xl text-white text-center leading-[120%] md:pb-10 pb-6">
             Lanza tu propia plataforma en sólo 2 semanas
           </h2>
-          <CommonButton
+          <CustomButton
             title="Leer más"
             style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
           />

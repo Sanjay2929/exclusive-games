@@ -1,5 +1,5 @@
 import React from "react";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 import Image from "next/image";
 
 const Platinum = () => {
@@ -25,7 +25,7 @@ const Platinum = () => {
                 Personalizable
               </li>
             </ul>
-            <CommonButton title="Comprar ahora" style="" />
+            <CustomButton title="Comprar ahora" style="" />
           </div>
           <div className="max-w-[602px] relative" data-aos="fade-left">
             <Image

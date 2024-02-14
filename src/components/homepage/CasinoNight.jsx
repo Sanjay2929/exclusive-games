@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import CommonButton from "../common/CommonButton";
+import CustomButton from "../common/CustomButton";
 
 const CasinoNight = () => {
   return (
@@ -22,7 +22,7 @@ const CasinoNight = () => {
             interactivos que más pide la gente. Con Exclusive Games empezás a
             ganar ya! Creamos tu plataforma en solo 2 semanas.
           </p>
-          <CommonButton
+          <CustomButton
             title="Aprende más"
             style="!text-darkBlack !bg-greenLinearGradient !border-none after:!bg-[url('/assets/common/button-green-haft-border.svg')]"
           />
