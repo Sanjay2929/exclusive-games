@@ -1,4 +1,4 @@
-export const MenuIcon = () => {
+export const Menu = () => {
   return (
     <svg
       width="24"
@@ -12,7 +12,7 @@ export const MenuIcon = () => {
   );
 };
 // Cross Navbar Icon
-export const CrossMenuIcon = () => {
+export const CrossMenu = () => {
   return (
     <svg
       width="24"
@@ -49,7 +49,7 @@ export const RightDirectionArrow = () => {
   );
 };
 // Accordion minus icon
-export const MinusIcon = () => {
+export const Minus = () => {
   return (
     <svg
       width="24"
@@ -67,7 +67,7 @@ export const MinusIcon = () => {
   );
 };
 // Accordion plus icon
-export const PlusIcon = () => {
+export const Plus = () => {
   return (
     <svg
       width="24"
@@ -85,7 +85,7 @@ export const PlusIcon = () => {
   );
 };
 // Footer gmail icon
-export const GmailIcon = () => {
+export const Gmail = () => {
   return (
     <svg
       width="18"
@@ -103,7 +103,7 @@ export const GmailIcon = () => {
   );
 };
 // Telephone Icon
-export const TelephoneIcon = () => {
+export const Telephone = () => {
   return (
     <svg
       width="20"

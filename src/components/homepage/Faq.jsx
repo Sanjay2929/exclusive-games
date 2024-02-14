@@ -5,7 +5,7 @@ import {
   AccordionHeader,
 } from "@material-tailwind/react";
 import React, { useState } from "react";
-import { MinusIcon, PlusIcon } from "../common/Icons";
+import { Minus, Plus } from "../common/Icons";
 import { FaqList } from "../common/Helper";
 
 const Faq = () => {
@@ -36,7 +36,7 @@ const Faq = () => {
                   <AccordionHeader className="text-white border-none py-0 font-anton lg:text-xl text-base sm:text-lg text-start font-normal hover:text-white">
                     {value.title}
                   </AccordionHeader>
-                  {open === index ? <MinusIcon /> : <PlusIcon />}
+                  {open === index ? <Minus /> : <Plus />}
                 </div>
                 <AccordionBody className="pb-0 pt-2 font-inter">
                   <p className="text-white font-normal sm:text-base text-sm opacity-80 lg:pe-24 !font-inter">

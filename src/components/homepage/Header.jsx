@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import CustomButton from "../common/CustomButton";
-import { CrossMenuIcon, MenuIcon } from "../common/Icons";
+import { CrossMenu, Menu } from "../common/Icons";
 import { NavLinks } from "../common/Helper";
 
 const Header = () => {
@@ -78,7 +78,7 @@ const Header = () => {
             setIsNavShow(!isNavShow);
           }}
         >
-          {isNavShow ? <CrossMenuIcon /> : <MenuIcon />}
+          {isNavShow ? <CrossMenu /> : <Menu />}
         </div>
       </div>
     </div>

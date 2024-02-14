@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FooterLinks } from "../common/Helper";
-import { GmailIcon, TelephoneIcon } from "../common/Icons";
+import { Gmail, Telephone } from "../common/Icons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -56,7 +56,7 @@ const Footer = () => {
                 className="font-inter font-medium sm:text-base text-sm text-white opacity-80 flex items-center gap-2 group hover:text-lightGreen  duration-300 hover:opacity-100"
                 href="mailto:juegosexclusivos@gmail.com"
               >
-                <GmailIcon />
+                <Gmail />
                 juegosexclusivos@gmail.com
               </Link>
             </li>
@@ -65,7 +65,7 @@ const Footer = () => {
                 className="font-inter font-medium sm:text-base text-sm text-white opacity-80 flex items-center gap-2 group hover:text-lightGreen  duration-300 hover:opacity-100"
                 href="tel:(101)342-7873"
               >
-                <TelephoneIcon />
+                <Telephone />
                 (101)342-7873
               </Link>
             </li>
