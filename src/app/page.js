@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import CasinoNight from "@/components/homepage/CasinoNight";
 import EllosEligieron from "@/components/homepage/EllosEligieron";
 import Faq from "@/components/homepage/Faq";
@@ -19,6 +19,7 @@ import Slots from "@/components/homepage/Slots";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 export default function Home() {
   useEffect(() => {
     AOS.init({
